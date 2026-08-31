@@ -1,0 +1,26 @@
+/* Mobile presentation hardening: prevent desktop-width components from clipping the viewport. */
+html,body,#root,.app{max-width:100%;overflow-x:hidden}
+img,svg{max-width:100%}
+@media(max-width:850px){
+  header{height:64px;min-width:0;width:100%;padding:0 17px;overflow:hidden}
+  .brand{min-width:0;max-width:100%;gap:9px;flex:1}
+  .brand .misha-logo-mark{width:42px!important;height:42px!important;flex:0 0 42px}
+  .brand b{font-size:20px!important;letter-spacing:4px!important;white-space:nowrap}
+  .brand small{font-size:8px!important;letter-spacing:4px!important;white-space:nowrap}
+  .hero,.section,.fastlane-demo,.ed-demo{width:100%;max-width:100%;overflow:hidden}
+  .container,.demo-top,.journey-shell,.ed-workspace,.screening-shell,.demo-disclaimer{width:calc(100% - 34px);max-width:1180px}
+  .journey-shell{grid-template-columns:1fr;min-width:0}
+  .journey-nav{display:flex;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line);padding:0;min-width:0}
+  .journey-nav button{min-width:145px;padding:15px 16px;grid-template-columns:34px 1fr}
+  .journey-stage{min-width:0;flex-direction:column;gap:25px;padding:55px 24px;text-align:center}
+  .stage-copy{max-width:100%}
+  .stage-copy h3{font-size:26px}
+  .scan-orb{width:210px;height:210px}
+  .orb-core{width:110px;height:110px}
+  .ed-card-panel{grid-template-columns:1fr}
+  .ed-form{border-right:0;border-bottom:1px solid var(--line)}
+  .provider-grid{grid-template-columns:1fr 1fr}
+  .architecture-flow{width:100%;min-width:0}
+  .architecture-products>div{min-width:0}
+  footer .container{flex-direction:column;align-items:flex-start}
+}
