@@ -5,7 +5,7 @@ const steps = [
   { key:'validation', label:'VALIDATION', title:'Travel document validated', text:'The passport and submitted information are validated as part of the eTA application process.', icon:'02' },
   { key:'payment', label:'PAYMENT', title:'Application fee paid', text:'The traveller completes the required eTA application payment before screening proceeds.', icon:'03' },
   { key:'screening', label:'PARALLEL SCREENING', title:'Multiple watchlists screened', text:'The application is screened against configured watchlists in parallel and the results are consolidated into the eTA decision path.', icon:'04' },
-  { key:'approval', label:'eTA DECISION', title:'eTA approved', text:'The completed eTA checks support an approval decision and the traveller receives an approved travel authorization.', icon:'05' },
+  { key:'approval', label:'eTA DECISION', title:'eTA approved', text:'The consolidated screening result and completed eTA checks support an approval decision. The biometric fastlane is now available to the approved applicant.', icon:'05' },
   { key:'fastlane', label:'BIOMETRIC FASTLANE', title:'Face recognition identifies the traveller', text:'At immigration, facial recognition matches the traveller to the identity already validated through the approved eTA.', icon:'06' },
   { key:'clearance', label:'IMMIGRATION CLEARANCE', title:'Passport-free passage', text:'The approved eTA traveller proceeds through the dedicated biometric fastlane without presenting the passport at the immigration lane.', icon:'07' },
 ];
