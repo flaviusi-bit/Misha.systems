@@ -1,0 +1,6 @@
+{
+  "$schema":"node_modules/wrangler/config-schema.json",
+  "name":"misha-systems-demo",
+  "compatibility_date":"2026-08-31",
+  "assets":{"directory":"./dist","not_found_handling":"single-page-application"}
+}
