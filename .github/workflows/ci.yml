@@ -2,7 +2,10 @@ name: CI
 
 on:
   push:
-    branches: [main, feature/demo-platform-foundation]
+    branches:
+      - main
+      - feature/demo-platform-foundation
+      - fix/mobile-presentation-overflow-v6
   pull_request:
     branches: [main]
 
