@@ -4,7 +4,7 @@ export default function LogoMark() {
   return (
     <img
       className="misha-logo-mark"
-      src="/misha-approved-horizontal.svg"
+      src="/misha-horizontal-exact.png"
       alt="MISHA Systems"
     />
   );
