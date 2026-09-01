@@ -119,7 +119,7 @@ function StageVisual({ step }) {
       return (
         <div className="journey-visual visual-biometric">
           <div className="biometric-flow">
-            <div className="face-panel"><div className="face-mark">◯</div><small>TRAVELLER</small></div>
+            <div className="face-panel"><div className="face-mark">FACE</div><small>TRAVELLER</small></div>
             <span>→</span>
             <div className="scan-panel"><div className="scan-lines" /><small>BIOMETRIC CAPTURE</small></div>
           </div>
