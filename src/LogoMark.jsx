@@ -26,7 +26,7 @@ export default function LogoMark(){
       </g>
       <g fill="currentColor">
         <text x="76" y="31" fontFamily="Manrope,Arial,sans-serif" fontSize="20" fontWeight="800" letterSpacing="3.1">MISHA</text>
-        <text x="77" y="48" fontFamily="Manrope,Arial,sans-serif" fontSize="9" fontWeight="700" letterSpacing="3">SYSTEMS</text>
+        <text x="116" y="48" textAnchor="middle" fontFamily="Manrope,Arial,sans-serif" fontSize="9" fontWeight="700" letterSpacing="3">SYSTEMS</text>
       </g>
     </svg>
   );
