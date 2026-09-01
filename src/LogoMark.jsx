@@ -1,11 +1,11 @@
 import React from 'react';
-import approvedLogo from './misha-logo.svg';
+import logo from '../public/misha-logo.png';
 
 export default function LogoMark(){
   return (
     <img
       className="misha-logo-mark"
-      src={approvedLogo}
+      src={logo}
       alt="MISHA Systems"
       draggable="false"
     />
