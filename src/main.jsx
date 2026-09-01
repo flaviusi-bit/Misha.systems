@@ -4,6 +4,7 @@ import './styles.css';
 import './architecture.css';
 import './presentation.css';
 import './mobile-fix.css';
+import './interactive-demo.css';
 import FastlaneDemo from './FastlaneDemo.jsx';
 import EDCardDemo from './EdCardDemo.jsx';
 import PresentationNav from './PresentationNav.jsx';
