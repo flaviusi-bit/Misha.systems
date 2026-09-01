@@ -1,5 +1,5 @@
 import React from 'react';
-import approvedLogo from './misha-logo.svg';
+import approvedLogo from './misha-horizontal-exact.png';
 
 export default function LogoMark(){
   return (
